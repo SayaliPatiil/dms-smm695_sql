@@ -1,2 +1,2 @@
 # Author: Thomas George Thomas
-Select * from city
+select * from city where ID=1661;
