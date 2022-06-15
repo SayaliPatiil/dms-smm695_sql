@@ -164,7 +164,7 @@ SELECT first_name FROM people.person;
 
 SELECT first_name, id FROM people.person;
 
-SELECT * FROM people.person;
+SELECT  FROM people.person;
 
 -- Limit & OFFSET
 
