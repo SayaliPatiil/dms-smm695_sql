@@ -13,7 +13,7 @@ select count(temp1.challenge_id) as max_count
     from challenges temp1
     group by temp1.hacker_id
     order by max_count desc
-    limit 2
+    limit 1
 )
 or total_count in
 (
@@ -24,5 +24,5 @@ on H2.hacker_id = C2.hacker_id
 group by H2.hacker_id, H2.name
 ) temp2
     group by other_counts
-having count(other_counts) =2)
+having count(other_counts) =1)
 order by total_count desc, H.hacker_id
