@@ -168,7 +168,7 @@ SELECT  FROM people.person;
 
 -- Limit & OFFSET
 
-SELECT * FROM people.person LIMIT 5;
+
 
 SELECT * FROM people.person LIMIT 5 OFFSET 5;
 
